@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#"></a>
+          <button
+            class="navbar-toggler navbar-light bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end navbar-expand-sm"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Clients</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img
+              src="Assets/header.jpg"
+              class="d-block w-100 c-img"
+              alt="Slide 1"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h1 class="display-1 fw-bolder text-start">
+                Photography For <br />Adventurous Souls &<br />Special Occasions
+              </h1>
+              <p class="mt-4 fs-4 text-start fw-normal">Wedding Photography</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button
+                  class="btn btn-secondary fs-5 mt-4 me-md-2"
+                  type="button"
+                >
+                  Book a photographer
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100"
+              class="d-block w-100 c-img"
+              alt="Slide 2"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h1 class="display-1 fw-bolder text-start">
+                Photography For <br />Adventurous Souls &<br />Rebels At Heart
+              </h1>
+              <p class="mt-4 fs-4 text-start fw-normal">
+                Discover The Hidden World
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button
+                  class="btn btn-secondary fs-5 mt-4 me-md-2"
+                  type="button"
+                >
+                  Book a photographer
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="Assets/image-2.jpg"
+              class="d-block w-100 c-img"
+              alt="Slide 3"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h1 class="display-1 fw-bolder text-start">
+                Photography For <br />Adventurous Souls &<br />Rebels At Heart
+              </h1>
+              <p class="mt-4 fs-4 text-start fw-normal">Portraits</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button
+                  class="btn btn-secondary fs-5 mt-4 me-md-2"
+                  type="button"
+                >
+                  Book a photographer
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <div class="section__container about__container" id="about">
+      <h2 class="section__header">WE CAPTURE THE MOMENTS</h2>
+      <p class="section__description">
+        At Capturer, we specialize in freezing those fleeting moments in time
+        that hold immense significance for you. With our passion for photography
+        and keen eye for detail, we transform ordinary moments into
+        extraordinary memories.
+      </p>
+      <p class="section__description">
+        Whether it's a milestone event, a candid portrait, or the breathtaking
+        beauty of nature, we strive to encapsulate the essence of every moment,
+        ensuring that your cherished memories last a lifetime. Trust us to
+        capture the magic of your life's journey, one frame at a time.
+      </p>
+    </div>
+
+    <section class="section__container talent__container">
+    <h2 class="section__header">Portfolio Showcase</h2>
+    <div class="row">
+      <div class="column">
+        <img src="Assets/client-3.jpg" style="width: 85%" />
+        <img src="Assets/client-1.jpg" style="width: 85%" />
+        <img src="Assets/client-2.jpg" style="width: 85%" />
+      </div>
+      <div class="column">
+        <img src="Assets/blog.jpg" style="width: 95%" />
+        <img src="Assets/image-2.jpg" style="width: 95%" />
+        <img src="Assets/image-5.jpg" style="width: 95%" />
+        <img src="Assets/image-7.jpg" style="width: 95%" />
+      </div>
+      <div class="column">
+        <img src="Assets/portfolio-1.jpg" style="width: 83%" />
+        <img src="Assets/portfolio-2.jpg" style="width: 83%" />
+        <img src="Assets/portfolio-3.jpg" style="width: 83%" />
+      </div>
+    </div>
+    </section>
+
+    <section class="section__container talent__container">
+      <h2 class="section__header">All Talent In One Place</h2>
+      <div class="talent__grid">
+        <div class="row row-cols-2 row-cols-lg-3 g-4 g-lg-0">
+          <div class="talent__card">
+            <span><i class="ri-passport-line"></i></span>
+            <h4>Portrait Photography</h4>
+            <p>
+              Mastery in capturing the essence and personality of individuals or
+              groups.
+            </p>
+          </div>
+          <div class="talent__card">
+            <span><i class="ri-landscape-line"></i></span>
+            <h4>Landscape Photography</h4>
+            <p>
+              Expertise in capturing scenic vistas, natural beauty, and
+              environments.
+            </p>
+          </div>
+          <div class="talent__card">
+            <span><i class="ri-tree-line"></i></span>
+            <h4>Wildlife Photography</h4>
+            <p>
+              Skill in capturing animals and their habitats in their natural
+              settings.
+            </p>
+          </div>
+          <div class="talent__card">
+            <span><i class="ri-zoom-in-line"></i></span>
+            <h4>Macro Photography</h4>
+            <p>
+              Specialization in capturing extreme close-up images, often of
+              small subjects.
+            </p>
+          </div>
+          <div class="talent__card">
+            <span><i class="ri-calendar-event-line"></i></span>
+            <h4>Event Photography</h4>
+            <p>
+              Proficiency in documenting events such as weddings, parties, and
+              corporate gatherings.
+            </p>
+          </div>
+          <div class="talent__card">
+            <span><i class="ri-shirt-line"></i></span>
+            <h4>Fashion Photography</h4>
+            <p>
+              Talent in capturing clothing, accessories, and models for
+              advertising or editorial purposes.
+            </p>
+          </div>
+          <div class="talent__card">
+            <span><i class="ri-handbag-line"></i></span>
+            <h4>Product Photography</h4>
+            <p>
+              Skill in photographing products for marketing, e-commerce, or
+              advertising purposes.
+            </p>
+          </div>
+          <div class="talent__card">
+            <span><i class="ri-goblet-line"></i></span>
+            <h4>Food Photography</h4>
+            <p>
+              Talent in capturing food and beverages in an appetizing and
+              visually appealing manner.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="blog" id="blog">
+      <div class="section__container blog__container">
+        <div class="blog__content">
+          <h2 class="section__header">~ LATEST BLOG ~</h2>
+          <h4>Capturing Emotion in Every Frame</h4>
+          <p>
+            This blog post delves into the importance of storytelling in<br>
+            photography and how Capturer approaches capturing emotion and<br>
+            narrative in their work. Readers will discover the techniques and<br>
+            strategies used by professional photographers to evoke emotion,<br>
+            convey meaning, and create compelling visual narratives that<br>
+            resonate with viewers on a deep level.
+          </p>
+          <div class="blog__btn">
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container instagram__container">
+      <h2 class="section__header">~ INSTAGRAM ~</h2>
+      <div class="instagram__flex">
+        <img src="Assets/image-1.jpg" alt="instagram" />
+        <img src="Assets/image-2.jpg" alt="instagram" />
+        <img src="Assets/image-3.jpg" alt="instagram" />
+        <img src="Assets/image-4.jpg" alt="instagram" />
+        <img src="Assets/image-5.jpg" alt="instagram" />
+        <img src="Assets/image-6.jpg" alt="instagram" />
+        <img src="Assets/image-7.jpg" alt="instagram" />
+        <img src="Assets/image-8.jpg" alt="instagram" />
+      </div>
+    </section>
+
+    <div class="contactid"> 
+      <h2>Contact us</h2> 
+      <div id="error_message"> 
+
+      </div> 
+      <form action="" 
+            id="myform" 
+            onsubmit="return validate();"> 
+          <div class="input_field"> 
+              <input type="text" 
+                     placeholder="Name" 
+                     id="name"> 
+          </div> 
+          <div class="input_field"> 
+              <input type="text" 
+                     placeholder="Subject" 
+                     id="subject"> 
+          </div> 
+          <div class="input_field"> 
+              <input type="text" 
+                     placeholder="Phone" 
+                     id="phone"> 
+          </div> 
+          <div class="input_field"> 
+              <input type="text" 
+                     placeholder="Email" 
+                     id="email"> 
+          </div> 
+          <div class="input_field"> 
+              <textarea placeholder="Message" 
+                        id="message"> 
+              </textarea> 
+          </div> 
+          <div class="btn"> 
+              <input type="submit"> 
+          </div> 
+      </form> 
+  </div> 
+
+    <footer id="contact">
+      <div class="footer__bar">
+          <div class="footer__bar">
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+              <a href="#"><i class="ri-pinterest-line"></i></a>
+            </div>
+          </div>
+          <div class="footer__bar">
+            <ul class="footer__links">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">ABOUT US</a></li>
+              <li><a href="#service">SERVICES</a></li>
+              <li><a href="#client">CLIENT</a></li>
+              <li><a href="#blog">BLOG</a></li>
+              <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+          </div>
+          <h4>STAY IN TOUCH</h4>
+          <p>
+            Keep up-to-date with all things Capturer! Join our community and
+            never miss a moment!
+          </p>
+        Copyright © 2024. All rights reserved.
+      </div>
+    </footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="app.js"></script>
+  </body>
+</html>
